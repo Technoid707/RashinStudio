@@ -4,6 +4,7 @@
 
 body {
   line-height: 150%;
+  padding: 24px;
 }
 h1 {
   font-size: 32px;
@@ -42,4 +43,13 @@ h4 {
 
 .nav li {
   font-style: italic;
+}
+
+.familyPic img {
+  height: 680px;
+}
+
+img {
+  opacity: 90%;
+  padding: 12px 0;
 }
