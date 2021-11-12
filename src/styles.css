@@ -74,7 +74,7 @@ header h3 a:hover {
   width: auto;
   object-fit: cover;
 }
-.family-pictures .col-4 {
+.family-pictures .col-md-4 {
   padding: 12px;
 }
 img.familyPic1,
