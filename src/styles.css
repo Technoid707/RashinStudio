@@ -96,9 +96,6 @@ img.familyPic6 {
 
 .footer {
   height: 100px;
-  position: sticky;
-  background-color: rgba(0, 0, 0, 0.1);
-  padding: 25px;
 }
 
 .socialMedia img {
