@@ -95,9 +95,26 @@ img.familyPic6 {
 }
 
 .footer {
-  height: 10%;
+  height: 100px;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 25px;
 }
 
 .socialMedia img {
   width: 15px;
+}
+
+.about-section img {
+  margin: 50px auto 0;
+  display: block;
+  text-align: center;
+  width: 1024px;
+  height: 350px;
+  object-fit: cover;
+  object-position: top;
+}
+.about-section p {
+  text-align: center;
+  margin: 0 auto;
 }
