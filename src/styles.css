@@ -1,9 +1,12 @@
+/* || GENERAL *********/
+
 :root {
   --bg-color: #f8f8f8;
 }
 
 body {
   line-height: 150%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -27,7 +30,10 @@ h4 {
 .text-small {
   font-size: 10px;
 }
+
+/* || HEADER *********/
 .header {
+  width: 100%;
   text-align: center;
   padding: 48px 24px;
   background: var(--bg-color);
@@ -67,6 +73,7 @@ header h3 a:hover {
   height: 680px;
 }
 
+/* || MAIN BODY *********/
 .Babies-pictures img,
 .pregnancy-pictures img {
   opacity: 90%;
@@ -95,14 +102,6 @@ img.familyPic6 {
   object-fit: cover;
 }
 
-.footer {
-  height: 100px;
-}
-
-.socialMedia img {
-  width: 15px;
-}
-
 .about-section img {
   margin: 50px auto 0;
   display: block;
@@ -117,6 +116,15 @@ img.familyPic6 {
   margin: 0 auto;
 }
 
+/* || FOOTER *********/
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+/* || MEDIA QUERY *********/
 @media (max-width: 768px) {
   .navigation li {
     padding: 10px;
