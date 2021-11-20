@@ -133,7 +133,11 @@
         <!-- Wrapper container -->
         <div class="container py-4">
           <!-- Bootstrap 5 starter form -->
-          <form id="contactForm">
+          <form
+            id="contactForm"
+            action="https://formsubmit.co/technoid707@gmail.com"
+            method="POST"
+          >
             <div class="row">
               <!-- Name input -->
               <div class="mb-3 col-md-6">
@@ -143,6 +147,8 @@
                   id="name"
                   type="text"
                   placeholder="Name"
+                  name="name"
+                  required
                 />
               </div>
               <!-- Phone Number input -->
@@ -153,6 +159,8 @@
                   id="phoneNumber"
                   type="text"
                   placeholder="phoneNumber"
+                  name="phoneNumber"
+                  required
                 />
               </div>
             </div>
@@ -167,6 +175,8 @@
                   id="emailAddress"
                   type="email"
                   placeholder="Email Address"
+                  name="Email"
+                  required
                 />
               </div>
 
@@ -178,15 +188,16 @@
                   id="message"
                   type="text"
                   placeholder="Message"
-                  style="height: 10rem"
+                  name="Message"
+                  rows="10"
                 ></textarea>
               </div>
             </div>
 
             <!-- Form submit button -->
             <div class="d-grid col-2">
-              <button class="btn btn-success btn-lg" type="submit">
-                Submit
+              <button class="btn btn-lg btn-submit" type="submit">
+                Submit Form
               </button>
             </div>
           </form>
