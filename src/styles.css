@@ -69,10 +69,6 @@ header h3 a:hover {
   font-style: italic;
 }
 
-.familyPic img {
-  height: 680px;
-}
-
 /* || MAIN BODY *********/
 .Babies-pictures img,
 .pregnancy-pictures img {
@@ -82,20 +78,17 @@ header h3 a:hover {
   width: auto;
   object-fit: cover;
 }
+
 .family-pictures .col-md-4 {
-  padding: 12px;
+  padding: 10px;
 }
-img.familyPic1,
-img.familyPic2,
-img.familyPic3 {
+img.familyPic {
   opacity: 90%;
   height: 300px;
   width: 463.7px;
   object-fit: cover;
 }
-img.familyPic4,
-img.familyPic5,
-img.familyPic6 {
+img.familyPicB {
   opacity: 90%;
   height: 600px;
   width: 463.7px;
